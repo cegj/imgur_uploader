@@ -6,7 +6,7 @@ Script to upload images using [Imgur Image Upload API](https://apidocs.imgur.com
 
 Download ImgurUploader.js file to your project.
 
-On your form, set 'img-input' as the <input type="file">'s ID. 
+On your form, set 'img-input' as the `<input type="file">`'s ID. 
 
 On your script.js file (or equivalent), import the ImgurUploader class (e.g. "import ImgurUploader from "./modules/imgurUploader.js" — but with your project's imgurUploader.js path).
 
@@ -18,7 +18,7 @@ Then, create a new ImgurUploader instance with the following parameters:
 
 Finally, init the uploader by setting ".init()" at the created ImgurUploader instance.
 
-## For exemple:
+## For example:
 
 ### HTML
 
@@ -56,7 +56,7 @@ imgUploader.init();
 
 ## How will it work?
 
-When the form's submit button is clicked, ImgurUploader will prevent default's form behavior, then get the file set at <input id="img-input" type="file"> field and finally send to Imgur over API by JS fetch.
+When the form's submit button is clicked, ImgurUploader will prevent default's form behavior, then get the file set at `<input id="img-input" type="file">` field and finally send to Imgur over API by JS fetch.
 
 By default, ImgurUploader will show the Imgur response at the console. The response includes the image id, the image URL and other useful information.
 
